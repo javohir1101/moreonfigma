@@ -514,3 +514,20 @@ nav{
     text-align: center;
     color: #401e1e;
 }
+.footer {
+    padding: 30px 0;
+    background: #404149;
+}
+.company>p{
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    color: #FFFFFF;
+}
+.company{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
