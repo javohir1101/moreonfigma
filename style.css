@@ -1,0 +1,516 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@300;400;500;600&family=Oswald:wght@500;600&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    width: 1110px;
+    margin: 0 auto;
+    /* border-right: 1px solid red;
+    border-left: 1px solid red; */
+    position: relative;
+}
+
+/* section 1 */
+
+.header{
+    width: 100%;
+    padding: 0;
+    margin-bottom: 200px;
+}
+
+.header_big_img{
+    background: url(./images/big_img.png) no-repeat center / cover;
+    height: 100vh;
+}
+
+nav{
+    width: 100%;
+    height: 110px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.word{
+    width: 100%;
+    align-items: center;
+    margin-bottom: 75px;
+}
+
+.word>h1{
+    padding: 0 200px;
+    font-family: 'Oswald';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 64px;
+    line-height: 95px;
+    text-align: center;
+    letter-spacing: 0.02em;
+    text-transform: uppercase;
+    color: white;
+    margin: 85px 0 35px 0;
+}
+
+.word>p{
+    font-family: 'Oswald';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 27px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+.block_year{
+    width: 100%;
+    height: 300px;
+    background: #f7f7f7;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+   
+}
+.box{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.box>h1{
+    font-family: 'Oswald';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 72px;
+    line-height: 107px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #F7654A;
+    margin-bottom: 25px;
+}
+
+.box>span{
+    font-family: 'Oswald';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 53px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #000000;
+    margin-bottom: 10px;
+}
+
+.box>p{
+    font-family: 'Oswald';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 27px;
+    text-align: center;
+    color: #999999;
+}
+
+/* section 2 */
+
+.big_project{
+    width: 100%;
+    margin-top: 500px;
+    
+}
+
+.h1{
+    width: 100%;
+    text-align: center;
+    font-family: 'Oswald';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 53px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #404149;
+    margin-bottom: 60px;
+}
+.block_x{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 30px;
+   
+}
+.box_x>img{
+   width: 100%;
+   height: 380px;
+}
+
+.box_x>div{
+   width: 55px;
+   height: 6px;
+   background: #F7654A;
+   margin: 45px 0 15px 0;
+}
+
+.box_x>h2{
+    font-family: 'Oswald';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 36px;
+    color: #404149;
+    margin-bottom: 20px;
+}
+.box_x>p{
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    color: #999999;
+}
+.clever_project{
+    background: #F7654A;
+    margin: 120px 0;
+}
+
+.clever_project>.container {
+    padding: 45px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0;
+    
+}
+.textuz>h1{
+    font-family: 'Oswald';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 71px;
+    letter-spacing: 0.02em;
+    margin-bottom: 20px;
+
+}
+.textuz>h2{
+    font-family: 'Oswald';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 71px;
+    letter-spacing: 0.02em;
+}
+.request {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  width: 175px;
+  height: 49px;
+  background: #FFFFFF;
+  cursor: pointer;
+
+
+}
+.request>h6{
+    font-family: 'Oswald';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 21px;
+    letter-spacing: 0.05em;
+    color: #000000;
+}
+.textuz {
+    color: #FFFFFF;
+}
+.what h1{
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 66px;
+}
+.building {
+    width: 350px;
+    height: 250px;
+    background: #F7F7F7;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px  
+
+}
+.constructions {
+    margin-bottom: 150px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 20px 20px;
+}
+.building>h3 {
+    padding: 0 50px;
+    text-align: center;
+}
+
+
+/* tower */
+.img-tower{
+    margin-bottom: 150px;
+    width: 100%;
+}
+
+.big__container{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.boxx{
+    width: 25%;
+    height: 400px;
+}
+
+.boxx>img{
+    width: 100%;
+    height: 100%;
+}
+.quest{
+    font-family: 'Oswald';
+    font-style: normal;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 64px;
+}
+.polygon {
+    display: flex;
+    margin-bottom: 40px;
+
+}
+.polygon>p{
+    color: #F7654A;
+    width: 350px;
+    height: 29px;
+    font-family: 'Oswald';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 28px;
+    line-height: 36px;
+    margin-left: 15px;
+}
+.polygon>img{
+    width: 15px;
+    margin-top: 10px;
+
+}
+.polygon_1{
+    display: flex;
+    margin-bottom: 40px;
+
+}
+.polygon_1>p{
+    color: #F7654A;
+    width: 350px;
+    height: 29px;
+    font-family: 'Oswald';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 28px;
+    line-height: 36px;
+    margin-left: 15px;
+}
+.polygon_1>img{
+    width: 15px;
+    margin-top: 10px;
+
+}
+.text_1{
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    color: #999999;
+    width: 730px;
+    height: 83px;
+    margin-bottom: 40px;
+}
+.polygon_1{
+    display: flex;
+    margin-bottom: 40px;
+
+}
+.polygon_2>p{
+    color: #F7654A;
+    width: 350px;
+    height: 29px;
+    font-family: 'Oswald';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 28px;
+    line-height: 36px;
+    margin-left: 15px;
+}
+.polygon_2>img{
+    width: 15px;
+    margin-top: 10px;
+
+}
+.polygon_2{
+    display: flex;
+    margin-bottom: 40px;
+}
+.polygon_3>p{
+    color: #F7654A;
+    width: 350px;
+    height: 29px;
+    font-family: 'Oswald';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 28px;
+    line-height: 36px;
+    margin-left: 15px;
+}
+.polygon_3>img{
+    width: 15px;
+    margin-top: 10px;
+
+}
+.polygon_3{
+    display: flex;
+    margin-bottom: 150px;
+}
+.partners>p{
+    margin-bottom: 60px;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Oswald';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 53px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+.Our_partners {
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    
+    background: #404149;
+    width: 100%;
+    height: 364px;
+}
+.berksh{
+    text-align: center;
+    background-color: none;
+}
+.big_berksh{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.ll {
+    text-align: center;
+    padding: 0 0 64px 0;
+    font-family: 'Oswald';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 53px;
+    text-transform: uppercase;
+    color: #000000;
+}
+.add{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 30px;
+}
+.boxy {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+.square{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 15px;
+    background: #F7F7F7;
+    padding: 30px;
+}
+.boxy>h5{
+    font-family: 'Oswald';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 21px;
+    line-height: 31px;
+    letter-spacing: 0.02em;
+    color: #000000;
+}
+.square>p{
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    color: #999999;
+}
+.work{
+    padding: 150px 0 0 0;
+}
+.location {
+    padding: 0 0 150px 0; 
+}
+.number {
+    font-family: 'Oswald';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 53px;
+    text-transform: uppercase;
+    color: #000000;
+    text-align: center;
+}
+.contact{
+    padding: 40px 0 0 0; 
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+}
+
+.contact_box{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+}
+.contact_box>span {
+    font-family: 'Oswald';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 36px;
+    text-align: center;
+    color: #999999;
+}
+.contact_box>h4{
+    font-family: 'Oswald';
+    font-style: normal;
+    text-align: center;
+    color: #000000;
+}
